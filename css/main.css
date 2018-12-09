@@ -139,12 +139,14 @@ header a:hover {
   background-color: grey;
 }
 
-/* ---------- Promotion Properties ---------- */
+/* ---------- Main Properties ---------- */
 
 main {
   max-width: 38em;
   margin: auto;
 }
+
+/* ---------- Promotion Properties ---------- */
 
 .promotion {
   position: relative;
@@ -198,11 +200,35 @@ main {
   background-color: #888;
 }
 
-/*-----------------*/
+/* ---------- Product Categories Properties ---------- */
 
 .product-categories {
-  display: none;
+  display: flex;
+  flex-wrap: wrap;
+
+  padding: .5em;
 }
+
+.product-categories a {
+  position: relative;
+  width: 50%;
+
+  padding: .5em;
+}
+
+.product-categories h2 {
+  width: 100%;
+
+  position: absolute;
+  left: 50%;
+  top: 37%;
+  transform: translate(-50%, -50%);
+
+  color: white;
+  text-align: center;
+}
+
+/*-----------------*/
 
 .recipes {
   display: none;
