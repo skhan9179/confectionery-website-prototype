@@ -219,6 +219,7 @@ footer {
 
   .logo {
     padding: .5em;
+    width: 10%;
   }
 
   h1 {
@@ -257,5 +258,9 @@ footer {
 }
 
 @media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
 
 }
