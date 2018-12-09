@@ -395,6 +395,16 @@ footer {
     color: black;
   }
 
+  /* ---------- Product Categories Properties ---------- */
+
+  .product-categories {
+    padding: .5em 0;
+  }
+
+  .product-categories a{
+    width: 25%;
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
