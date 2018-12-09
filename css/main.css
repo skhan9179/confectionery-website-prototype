@@ -143,13 +143,14 @@ header a:hover {
 
 .promotion {
   position: relative;
+  max-width: 35em;
 }
 
 .promotion figcaption {
   background-color: rgba(3, 3, 3, 0.2);
 
   position: absolute;
-  top: .75em;
+  bottom: .75em;
   right: .75em;
   width: 65%;
 
@@ -249,6 +250,7 @@ footer {
 
   header {
     flex-direction: column;
+    padding: .5em 0 0;
   }
 
   .logo {
@@ -268,10 +270,27 @@ footer {
 
   .nav {
     display: flex;
+    position: static;
   }
 
   li:nth-child(2) a {
     border-width: thin thin 0 0;
+  }
+
+  /* ---------- Promotion Properties ---------- */
+
+  .promotion figcaption {
+    bottom: 1.5em;
+    right: 1.5em;
+    width: 50%;
+  }
+
+  .promotion p {
+    margin: 0 0 .5rem;
+  }
+
+  .promotion small {
+    margin: 0 0 1em;
   }
 
 }
