@@ -323,6 +323,16 @@ footer {
     margin: 0 0 1em;
   }
 
+  /* ---------- Product Categories Properties ---------- */
+
+  .product-categories {
+    padding: .75em 3em;
+  }
+
+  .product-categories a {
+    padding: .5em;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
