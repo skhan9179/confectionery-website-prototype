@@ -200,6 +200,60 @@ footer {
 
 @media only screen and (min-width: 60em) {
 
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  header {
+    padding: 0;
+
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  .logo,
+  h1 {
+    margin: 0;
+  }
+
+  .logo {
+    padding: .5em;
+  }
+
+  h1 {
+    padding: 0 5em 0 .5em;
+  }
+
+  header nav {
+    display: inline-block;
+  }
+
+  .nav {
+    background-color: rgba(0, 0, 0, 0);
+
+    position: static;
+
+    padding-right: .5em;
+  }
+
+  li:nth-child(1) a,
+  li:nth-child(2) a,
+  li:nth-child(3) a {
+    border-width: 0 thin 0 0;
+    padding: 0;
+  }
+
+  li:nth-child(4) a {
+    border-width: 0;
+    padding: 0;
+  }
+
+  header a:hover {
+    background-color: rgba(0, 0, 0, 0);
+    color: black;
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
