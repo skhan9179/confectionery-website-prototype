@@ -141,9 +141,13 @@ header a:hover {
 
 /* ---------- Promotion Properties ---------- */
 
+main {
+  max-width: 38em;
+  margin: auto;
+}
+
 .promotion {
   position: relative;
-  max-width: 38em;
 }
 
 .promotion figcaption {
@@ -353,12 +357,6 @@ footer {
   header a:hover {
     background-color: rgba(0, 0, 0, 0);
     color: black;
-  }
-
-  /* ---------- Promotion Properties ---------- */
-
-  .promotion {
-    margin: auto;
   }
 
 }
