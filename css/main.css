@@ -50,7 +50,7 @@ header {
 }
 
 h1 {
-  padding-left: .35em;
+  padding: 0 0 .5em .35em;
 
   white-space: nowrap;
   font-family: Pacifico;
@@ -163,6 +163,38 @@ footer {
 }
 
 @media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  header {
+    flex-direction: column;
+  }
+
+  .logo {
+    padding: 0;
+    margin: 0 0 1rem;
+  }
+
+  h1 {
+    padding: 0;
+    margin: 0 0 1.4rem;
+  }
+
+  .nav-check,
+  .nav-label {
+    display: none;
+  }
+
+  .nav {
+    display: flex;
+  }
+
+  li:nth-child(2) a {
+    border-width: thin thin 0 0;
+  }
 
 }
 
