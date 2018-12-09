@@ -146,6 +146,20 @@ footer {
 
 @media only screen and (min-width: 25em) {
 
+  .nav-check:checked ~ .nav {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  header li {
+    width: 50%;
+  }
+
+  li:nth-child(1) a,
+  li:nth-child(3) a {
+    border-width: thin thin 0 0;
+  }
+
 }
 
 @media only screen and (min-width: 38em) {
