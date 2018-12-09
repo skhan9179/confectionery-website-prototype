@@ -17,3 +17,145 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+body,
+h1,
+.nav {
+  margin: 0;
+}
+
+header {
+  background-color: pink;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  vertical-align: middle;
+
+  position: relative;
+
+  padding: .5em .5em 0;
+}
+
+.logo {
+  display: inline-block;
+  width: 25%;
+
+  padding-bottom: .5em;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+h1 {
+  padding-left: .35em;
+
+  white-space: nowrap;
+  font-family: Pacifico;
+  font-size: 1.5rem;
+}
+
+header nav {
+  display: block;
+  width: 100%;
+}
+
+.nav-check {
+  position: absolute;
+  top: -3em;
+}
+
+.nav-label {
+  cursor: pointer;
+
+  display: inline-block;
+  width: 15%;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+
+  padding: .5em;
+}
+
+.nav-close {
+  display: none;
+}
+
+.nav {
+  background-color: pink;
+
+  display: none;
+  width: 100%;
+  position: absolute;
+  left: 0;
+
+  padding: 0;
+
+  list-style-type: none;
+}
+
+.nav-check:checked ~ .nav {
+  display: block;
+}
+
+.nav-check:checked ~ .nav-label .nav-open {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-close {
+  display: block;
+}
+
+header li {
+  text-align: center;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+header a {
+  display: block;
+
+  padding: .5em 0;
+  border-color: white;
+  border-style: solid;
+  border-width: thin 0 0;
+
+  font-family: Oswald;
+  color: white;
+}
+
+header a:hover {
+  background-color: grey;
+}
+
+/*-----------------*/
+
+main {
+  display: none;
+}
+
+footer {
+  display: none;
+}
+
+
+@media only screen and (min-width: 25em) {
+
+}
+
+@media only screen and (min-width: 38em) {
+
+}
+
+@media only screen and (min-width: 60em) {
+
+}
+
+@media only screen and (min-width: 90em) {
+
+}
