@@ -151,6 +151,10 @@ footer {
     flex-wrap: wrap;
   }
 
+  .nav-label {
+    padding: .5em 1em .5em .5em;
+  }
+
   header li {
     width: 50%;
   }
@@ -206,10 +210,9 @@ footer {
   }
 
   header {
-    padding: 0;
-
     flex-direction: row;
     flex-wrap: nowrap;
+    padding: 0;
   }
 
   .logo,
@@ -223,19 +226,21 @@ footer {
   }
 
   h1 {
-    padding: 0 5em 0 .5em;
+    padding-left: .5em;
   }
 
   header nav {
-    display: inline-block;
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+
+    padding-right: 1em;
   }
 
   .nav {
     background-color: rgba(0, 0, 0, 0);
-
     position: static;
-
-    padding-right: .5em;
+    width: 50%;
   }
 
   li:nth-child(1) a,
@@ -261,6 +266,14 @@ footer {
 
   html {
     font-size: 130%;
+  }
+
+  .logo {
+    width: 7%;
+  }
+
+  .nav {
+    width: 40%;
   }
 
 }
