@@ -575,6 +575,12 @@ footer small {
     width: 25%;
   }
 
+  /* ---------- Footer Properties ---------- */
+
+  .social-media {
+    width: 13%;
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
