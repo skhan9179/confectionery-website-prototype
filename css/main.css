@@ -268,7 +268,8 @@ main {
   border-radius: .5em;
 }
 
-.recipe:hover {
+.recipe:hover,
+.button:hover {
   background-color: #ddd;
 }
 
