@@ -294,11 +294,17 @@ main {
   text-align: center;
 }
 
-/*-----------------*/
+/* ---------- About Properties ---------- */
 
-.about {
-  display: none;
+.owner {
+  margin: 0 0 1em;
 }
+
+.about p {
+  font-family: Oswald;
+}
+
+/*-----------------*/
 
 footer {
   display: none;
