@@ -412,6 +412,12 @@ footer {
     padding: .5em;
   }
 
+  /* ---------- Recipes Properties ---------- */
+
+  .recipe {
+    width: 30%;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
