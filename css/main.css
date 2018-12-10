@@ -304,10 +304,34 @@ main {
   font-family: Oswald;
 }
 
-/*-----------------*/
+/* ---------- Footer Properties ---------- */
 
 footer {
-  display: none;
+  background-color: pink;
+}
+
+footer ul {
+  display: flex;
+  width: 50%;
+
+  padding: 1rem 0;
+  margin: 0 auto;
+
+  list-style-type: none;
+}
+
+footer li {
+padding: .5em .75em;
+}
+
+footer small {
+  display: block;
+
+  padding-bottom: 1rem;
+
+  font-family: Oswald;
+  font-size: .75em;
+  text-align: center;
 }
 
 /* ---------- MEDIA QUERIES ---------- */
