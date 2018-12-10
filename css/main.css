@@ -255,7 +255,8 @@ main {
   font-size: 1em;
 }
 
-.recipes a {
+.recipe,
+.button {
   display: block;
   width: 75%;
 
@@ -267,7 +268,7 @@ main {
   border-radius: .5em;
 }
 
-.recipes a:hover {
+.recipe:hover {
   background-color: #ddd;
 }
 
@@ -325,6 +326,24 @@ footer {
   li:nth-child(1) a,
   li:nth-child(3) a {
     border-width: thin thin 0 0;
+  }
+
+  /* ---------- Recipes Properties ---------- */
+
+  .recipes-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+  }
+
+  .recipe {
+    margin: 0 0 1.3rem;
+  }
+
+  .recipe,
+  .button {
+    width: 45%;
   }
 
 }
