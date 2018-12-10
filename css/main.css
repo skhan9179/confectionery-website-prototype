@@ -222,7 +222,7 @@ main {
 
   position: absolute;
   left: 50%;
-  top: 37%;
+  top: 50%;
   transform: translate(-50%, -50%);
 
   color: white;
@@ -470,6 +470,8 @@ footer small {
     display: inline-block;
     margin-left: 1em;
     text-align: left;
+    vertical-align: top;
+    padding-top: .5em;
   }
 
   /* ---------- Footer Properties ---------- */
