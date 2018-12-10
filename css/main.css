@@ -434,6 +434,25 @@ footer {
     width: 30%;
   }
 
+  /* ---------- About Properties ---------- */
+
+  .about {
+    text-align: center;
+  }
+
+  .owner {
+    width: 45%;
+    margin: 0;
+    display: inline-block;
+  }
+
+  .about figcaption {
+    width: 40%;
+    display: inline-block;
+    margin-left: 1em;
+    text-align: left;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
