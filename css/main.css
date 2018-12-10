@@ -599,4 +599,10 @@ footer small {
     width: 40%;
   }
 
+  /* ---------- Footer Properties ---------- */
+
+  .social-media {
+    width: 7%;
+  }
+
 }
